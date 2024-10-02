@@ -78,13 +78,13 @@ input {
 .result__video-container {
   position: relative;
   overflow: hidden;
-  width: 711px;
-  height: 386px;
   margin-bottom: 16px;
 }
 
 .result__video {
-  width: 100%;
+  width: 711px;
+  height: 386px;
+  object-fit: cover;
 }
 
 .content__list-item:not(:last-child) {
@@ -98,6 +98,7 @@ input {
 }
 
 .content__video-card-thumbnail {
+  object-fit: cover;
   width: 194px;
   height: 103px;
 }
