@@ -224,9 +224,9 @@ fieldset {
   width: 15px;
   height: 15px;
   background-color: #fff;
-  position: absolute;
-  margin-top: 1px;
+  position: relative;
   margin-left: 1px;
+  margin-bottom: 1px;
 }
 
 .search-form__label:hover > .search-form__label-text {
